@@ -74243,7 +74243,8 @@ const Public = {
 		//
 		try {
 			if(Public.TimeDifference === false){
-				let remote = await jQuery.get(`/api/time`)
+                // let remote = await jQuery.get(`/api/time`)
+                let remote = await jQuery.get(`https://exitscam.me/api/time`)
 				let local = new Date().getTime()
 				let diff = new Date().getTime() - remote.now
 				Public.TimeDifference = (diff < 0) ? `+${diff.toString().slice(1)}` : `-${diff.toString()}`
