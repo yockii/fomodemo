@@ -1,0 +1,195 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+	<!-- metatags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="theme-color" content="#343a40">
+	
+	<!-- SEO related -->
+	<meta name="description" content="Welcome to blockchain development. Your ICO is over, hype is drying up. Take the private keys, drain everything.">
+  	<meta name="keywords" content="Ethereum, F3D, Fomo3D, Proof of Weak Hands, P3D, PoWH3D, Cryptocurrency, ICO, Parody, Satire, Gambling, Jackpot, Lottery, Referral, Passive Income, UBI">
+  	<meta name="author" content="Team Anonymous">
+	
+	<!-- open graph -->
+	<meta property="og:title" content="re: Your Personal Exit Scam">
+	<meta property="og:description" content="Welcome to blockchain development. Your ICO is over, hype is drying up. Take the private keys, drain everything.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://exitscam.me/">
+	<meta property="og:image" content="https://exitscam.me/img/og_logo.png">
+	<meta property="og:image:width" content="400">
+	<meta property="og:iamge:height" content="400">
+
+	<!-- icons -->
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-114.png">
+	<link rel="apple-touch-icon" sized="72x72" href="img/apple-72.png">
+	<link rel="apple-touch-icon" href="img/apple.png">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+	<!-- css -->
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/custom.css">
+	<link rel="stylesheet" href="/css/alertify.css">
+	<link rel="stylesheet" href="/css/base.css">
+	<link rel="stylesheet" href="/css/ghostframe.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:200,400" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+
+
+	<title>FOMOGame</title>
+  </head>
+  <body>
+  	<module-bash>
+	</module-bash>
+	<!-- <div class="blurryboy"></div> -->
+	<div id="main-wrapper">
+	  <!-- navigation -->
+	  <header class="topbar fixed-top">
+		<module-navbar>
+		</module-navbar>
+	  </header>
+	  <!-- /navigation -->
+	  <!-- noscript message -->
+	  <noscript>
+		<div class="row">
+		  <div class="col">
+			<div class="alert alert-purp pulse text-center text-light" role="alert" style="margin-top:8rem;">请允许javascript来运行real5D</div>
+		  </div>
+		</div>
+	  </noscript>
+	  <!-- /noscript -->
+	  <!-- modal loading -->
+	  <!-- toggle with jQuery('#loading').modal({backdrop: 'static', keyboard: false})
+	  this makes it impossible to close modal by clicking outside the box -->
+	  <div class="modal fade" id="loading" tabindex="-1" role="dialog" aria-hidden="true" style="z-index: 99999999;">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+		  <div class="modal-content bg-dark text-light">
+			<div class="modal-body" style="padding-top:1.5rem; padding-bottom:1.5rem;">
+			  <div class="row justify-content-between">
+				<div class="col-auto">
+				 请检查您的Metamask
+				</div>
+				<div class="col-2">
+				  <div class="miniloader"></div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <!-- /modal loading -->
+	  <!-- modal vanity -->
+	  <div class="modal fade" id="vanity" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+		  <div class="modal-content bg-dark text-light">
+			<div class="modal-body" style="padding-top:1.5rem; padding-bottom:1.5rem;">
+			<!-- Name chooser -->
+			<div class="row">
+			  <div class="col">
+				<p class="lead nomarginb">将您的名字注册在区块链上</p>
+			  </div>
+			  <div class="col-auto">
+				<p class="text-right nomarginb">
+				  <a href="#" class="closemodal">
+					<i class="fas fa-times"></i>
+				  </a>
+				</p>
+			  </div>
+			</div>
+			<hr>
+			<div class="row">
+			  <div class="col">
+			<div class="row">
+			  <div class="col">
+				<div class="input-group mb-3">
+				  <div class="input-group-prepend">
+					<button class="btn btn-outline-yel" type="button" id="randomName">
+					  随机
+					</button>
+				  </div>
+				  <input class="form-control text-center" type="text" placeholder="type here" id="nameInput">
+				</div>
+			  </div>
+			</div>
+				<p class="small">
+				<br>
+				取名须符合下列规则:<br>
+				-必须唯一<br>
+				-小于等于32个字符<br>
+				-A-Z (小写)<br>
+				-名字不能 <i>只有</i> 数字, 但允许存在数字<br>
+				-没有特殊字符<br>
+				-字符间没有空格<br>
+				<br>
+				如果取名失败，意味着有规则没有符合。 <br>
+				<br>
+				一旦注册，该名字所属权永远归你所有，但只有你最近的名字会显示在排行榜上。你可以选择尽可能多地注册名字。<br><br>
+				
+				</p>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col">
+				<button class="btn btn-purp btn-block btn-lg" id="namePurchase"><i class="fab fa-ethereum"></i> 使用 0.01 ETH 购买</button>
+				<p style="font-size:0.7rem;color:#afafaf"> 费用将转发给开发者</p>
+			  </div>
+			</div>
+			<!-- /Name chooser -->
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <!-- /modal vanity -->
+	  <!-- 
+	</div>
+		<div id="spacer" class="spacer"></div>
+		<!-- main content (exchangeable) -->
+		<module-template>
+		</module-template>
+		<module-airdrop>
+		</module-airdrop>
+		<module-modal>
+		</module-modal>
+		<!-- /main content -->
+	</div>
+	
+	
+	<!-- owo -->
+	<div class="animation">
+		<!-- TO DO: 找一张其他图片-->
+	  <img src="img/snorting_in_progress_pepe.png" height="150px">
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+	<script src="js/alertify.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+	<!-- <script src="js/bootstrap.min.js"></script> -->
+	<script src="js/fontawesome-all.min.js"></script>
+	<script>
+	if(!localStorage.getItem("seenWarning")){
+		// Start phishing warning on load
+		jQuery("#phishingWarning").modal()
+
+		localStorage.setItem("seenWarning", true)
+	}
+	
+
+	// Vanity modal
+	jQuery(".vanity").click(function(){
+	  jQuery('#vanity').modal()
+	})
+	jQuery(".closemodal").click(function(){
+	  jQuery('#vanity').modal('hide')
+	})
+
+	// Random Name generator
+	jQuery('#randomName').click(function(){
+	  jQuery('#nameInput').val(namegen.generate());
+	})
+
+
+	</script>
+	<script src="js/bundle.js"></script>
+  </body>
+</html>
